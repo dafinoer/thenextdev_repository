@@ -7,8 +7,7 @@ import 'package:thenextdev_repository/models/_models.dart';
 
 class MockCategoryModel extends Mock implements CategoryModel {}
 
-class MockJson extends Mock implements JsonDecoder {
-}
+class MockJson extends Mock implements JsonDecoder {}
 
 void main() {
   group('CategoryModel Group Test', () {
