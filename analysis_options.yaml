@@ -2,3 +2,20 @@ include: package:flutter_lints/flutter.yaml
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    invalid_annotation_target: ignore
+    dead_code : info
+    prefer_single_quotes: error
+
+  strong-mode:
+    implicit-dynamic: true
+    implicit-casts: true
+
+linter:
+  rules:
+    - always_declare_return_types
