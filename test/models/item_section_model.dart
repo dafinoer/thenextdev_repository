@@ -17,11 +17,11 @@ void main() {
     test('from json test', () {
       when(() => _mockJson.convert(any())).thenReturn({
         'id': 123,
-        'title': "lorem",
+        'title': 'lorem',
       });
       final mockModel = ItemSectionModel.fromJson(_mockJson.convert(''));
       expect(mockModel.id, 123);
-      expect(mockModel.title, "lorem");
+      expect(mockModel.title, 'lorem');
     });
   });
 }
