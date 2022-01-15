@@ -14,6 +14,7 @@ void main() {
       expect(model.id, 1);
       expect(model.title, 'tinyBag');
       expect(model.description, null);
+      expect(model.image, null);
     });
   });
 }
