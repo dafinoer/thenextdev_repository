@@ -10,7 +10,10 @@ analyzer:
   errors:
     invalid_annotation_target: ignore
     dead_code : info
-    prefer_single_quotes: error
+    prefer_single_quotes: warning
+    avoid_print: error
+    avoid_as: error
+    avoid_dynamic_calls: error
 
   strong-mode:
     implicit-dynamic: true
@@ -19,3 +22,10 @@ analyzer:
 linter:
   rules:
     - always_declare_return_types
+    - prefer_single_quotes
+    - avoid_print
+    - close_sinks
+    - avoid_empty_else
+    - avoid_returning_null
+    - prefer_relative_imports
+    - prefer_const_constructors

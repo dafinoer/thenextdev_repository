@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:thenextdev_repository/models/product_option.dart';
+import '../models/product_option.dart';
 
 part 'item_section_model.freezed.dart';
 part 'item_section_model.g.dart';
